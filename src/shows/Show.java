@@ -1,5 +1,9 @@
+package shows;
+
+import persons.Actor;
+import persons.Director;
+
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class Show {
     protected String title;
@@ -53,7 +57,7 @@ public class Show {
             return;
         }
         for (int i = 0; i < listOfActors.size(); i++) {
-            if (listOfActors.get(i).getSurname().equals(surname)) {
+            if (listOfActors.get(i).getSurname().equalsIgnoreCase(surname)) {
                 // Нашли, меняем
                 System.out.println("Замена актёра " + listOfActors.get(i).toString() + " на " + actor.toString());
                 listOfActors.set(i, actor);

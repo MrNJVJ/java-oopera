@@ -1,3 +1,7 @@
+package persons;
+
+import util.Gender;
+
 public class Director extends Person {
     private int numberOfShows;
 

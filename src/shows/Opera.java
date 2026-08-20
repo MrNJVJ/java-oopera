@@ -1,3 +1,9 @@
+package shows;
+
+import persons.Actor;
+import persons.Director;
+import persons.Person;
+
 import java.util.ArrayList;
 
 public class Opera extends MusicalShow {

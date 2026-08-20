@@ -1,3 +1,7 @@
+package persons;
+
+import util.Gender;
+
 public class Actor extends Person {
     private int height;
 
